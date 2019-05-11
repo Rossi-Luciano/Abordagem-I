@@ -1,0 +1,6 @@
+g = new Neo4jGraph("/YOUR/GRAPH/DIRECTORY")
+writer = new GraphMLWriter(g)
+out = new FileOutputStream("/YOUR/GRAPHML/file.graphml")
+writer.outputGraph(out)
+writer.setNormalize(true)
+out.close()
