@@ -9,12 +9,12 @@
   },
   "text": {
     "title": "Abordagem I",
-    "more": "",
-    "intro": "\t"
+    "more": "Grafo de tópicos do conhecimento considerando a abordagem 1. Os vértices e as arestas normalizadas representam os tópicos e a frequência do relacionamento, respectivamente.",
+    "intro": "Grafo de tópicos do conhecimento considerando a abordagem 1."
   },
   "legend": {
     "edgeLabel": "Influência",
-    "colorLabel": "",
+    "colorLabel": "Grau de saída",
     "nodeLabel": "Tópicos"
   },
   "features": {
@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "imageAttribute": false,
-    "groupByEdgeDirection": false
+    "groupByEdgeDirection": true
   },
   "sigma": {
     "graphProperties": {
